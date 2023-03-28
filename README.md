@@ -1,11 +1,11 @@
 # OSB-ABI-Support
 # **项目名称**
 
-二进制abi接口分析
+二进制ABI接口分析
 
 # **项目描述**
 
-为OBS构建系统实现ABI接口分析功能，自动识别软件包的依赖包abi接口是否变动自动加入reason列表中，便于更精确的进行自动化批量构建
+为OBS构建系统实现ABI接口分析功能，自动识别软件包的依赖包ABI接口是否变动自动更新reason列表中，便于更精确的进行自动化批量构建
 
 # **所属赛道:**
 
@@ -36,6 +36,8 @@ Mail: lichenggang@uniontech.com
  [openbuildservice-help](https://openbuildservice.org/help/manuals/obs-user-guide/)
 
  [open-build-service](https://github.com/openSUSE/open-build-service)
+ 
+ [deepin-obs实例](https://build.deepin.com/)
 
  **深入理解计算机系统**
 
@@ -53,8 +55,10 @@ GPL-3.0
 * 软件包构建完成记录二进制的ABI接口信息
 * 软件包重复rebuild提取二进制ABI接口信息与数据库中的信息对比
 * ABI变更触发依赖树中的包进行rebuild
+* 结合debian的ratt等工具进行依赖分析
 
 第二题：完成OBS构建系统的ABI分析支持
 
-* 为OBS调度器添加根据ABI接口变化自动确认是否rebuild功能
-
+* 建立数据库记录软件包ABI信息
+* 为OBS调度器添加根据ABI接口变化自动更新reason列表
+* 为OBS调度器添加多线程机制，提高性能
