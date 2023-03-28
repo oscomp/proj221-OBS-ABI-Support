@@ -16,6 +16,9 @@
 
 # **项目导师**
 
+Github：[Zeno-sole](https://github.com/Zeno-sole)
+
+Mail: lichenggang@uniontech.com
 
 # **难度**
 
