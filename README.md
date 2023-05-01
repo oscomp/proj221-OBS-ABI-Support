@@ -13,14 +13,13 @@
 
 # **参赛要求**
 
-
-# **项目导师**
+### 项目导师
 
 Github：[Zeno-sole](https://github.com/Zeno-sole)
 
 Mail: lichenggang@uniontech.com
 
-# **难度**
+### 难度
 
 中等
 
